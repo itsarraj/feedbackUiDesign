@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Feedback UI Design</title>
 </head>
 <body>
+    <div id="panel" class="panel-container">
+        <strong>How satisfied are you with our <br>
+        customer support performance?</strong>
+        <div class="rating-container">
+            <div class="rating">
+                <img src="https://cdn-icons-png.flaticon.com/512/2351/2351524.png" alt="" srcset="">
+                <small>Unhappy</small>
+            </div>
 
+            <div class="rating">
+                <img src="https://cdn-icons-png.flaticon.com/512/2351/2351478.png" alt="" srcset="">
+                <small>Neutral</small>
+            </div>
+
+            <div class="rating">
+                <img src="https://cdn-icons-png.flaticon.com/512/2351/2351491.png" alt="" srcset="">
+                <small>Happy</small>
+            </div>
+        </div>
+        <button class="btn" id="send">Send Review</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
