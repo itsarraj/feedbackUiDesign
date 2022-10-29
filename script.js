@@ -1,5 +1,5 @@
 const rating = document.querySelectorAll('.rating')
-const ratingContainer = document.querySelectorAll('.rating-container')
+const ratingContainer = document.querySelector('.rating-container')
 const sendBtn = document.querySelector('#send')
 const panel = document.querySelector('#panel')
 let selectedRating = 'Satisfied'

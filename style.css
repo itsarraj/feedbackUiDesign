@@ -30,6 +30,7 @@ body {
 
 .panel-container strong {
     line-height: 20px;
+    text-align: center;
 }
 
 .rating-container {
