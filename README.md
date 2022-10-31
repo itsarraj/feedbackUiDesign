@@ -1,10 +1,7 @@
-# Feedback UI Design
 
-## 1. Stopwatch
-    - Buttons UI are Simple & Rounded
+## Feedback UI Design
 
 ### Screensorts Below
-
 
 ![Preview-1](https://github.com/itsarraj/feedbackUiDesign/blob/master/src/preview.gif)
 
